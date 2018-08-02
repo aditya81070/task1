@@ -1,0 +1,64 @@
+header, nav, article, aside,footer,main {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+.header-logo{
+	width: 50px;
+}
+
+.header {
+	background: #cc1144;
+}
+
+.registerform{
+	background: #dddddd;
+	box-shadow: 10px 10px 5px #333333;
+	border: 1px solid #cc1144;
+	max-width: 600px;
+}
+
+.registerheading {
+	font-family: cursive;
+	font-variant: small-caps;
+}
+
+
+label{
+	color: #cc1144;
+}
+
+.form-control:focus{
+	border: 1px solid red;
+}
+
+.footersec{
+	background: #cc1144;
+	color: white;
+
+}
